@@ -54,8 +54,8 @@
             <li><a href="#">Расположение</a></li>
             <li><a href="#">Жилые кварталы</a></li>
             <li><a href="#">Коммерческие площади</a></li>
-            <li><a href="#">Ход строительства</a></li>
-            <li><a href="#" class="active">«Солнечный» сегодня</a></li>
+            <li><a href="#" class="active">Ход строительства</a></li>
+            <li><a href="#" >«Солнечный» сегодня</a></li>
           </ul>
         <!--SIDEBAR_MENU-->
           <div class="s_adress">
@@ -92,7 +92,7 @@
               </button>
              
               <a class="top_logo" href="#"><img src="images/top_logo.svg" /></a>
-                <ul class="top_title"><li><h1>«Солнечный» сегодня</h1></li></ul>
+                <ul class="top_title"><li><h1>Ход строительства</h1></li></ul>
 
             </nav>
           <!--//TOP NAVMENU-->
