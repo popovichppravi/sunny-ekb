@@ -722,3 +722,8 @@ margin-top: 10px;
     border-width: 0px 0px 0 0;
     border-color: #ffffff transparent transparent transparent;
 }
+
+section.monitoring, section.monitoring object, section.monitoring object embed {
+    width: 100%;
+    height: 100vh;
+}
