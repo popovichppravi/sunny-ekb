@@ -35,7 +35,6 @@
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <!--//УДАЛИТЬ-->
 
-
   </head>
   <body>
     <!--CALL BTN-->
@@ -50,9 +49,9 @@
           <ul class="flex-column sidebar_menu">
             <li><a href="#">Главная</a></li>
             <li><a href="#">Особенности проекта</a></li>
-            <li><a class="active" href="#">Расположение</a></li>
+            <li><a href="#">Расположение</a></li>
             <li><a href="#">Жилые кварталы</a></li>
-            <li><a href="#">Коммерческие площади</a></li>
+            <li><a class="active"  href="#">Коммерческие площади</a></li>
             <li><a href="#">Ход строительства</a></li>
             <li><a href="#">«Солнечный» сегодня</a></li>
           </ul>
@@ -91,27 +90,22 @@
               </button>
              
               <a class="top_logo" href="#"><img src="images/top_logo.svg" /></a>
-                <ul class="top_title"><li><h1>Расположение</h1></li></ul>
+                <ul class="top_title"><li><h1>Коммерческие площади</h1></li></ul>
 
             </nav>
           <!--//TOP NAVMENU-->
-             <div class="big_img_block" style="background-image: url('images/contacts.jpg')">
-                <div class="bottom_info">
-                  <div class="row align-items-center">
-                    <div class="col-md-4 col-lg-4">
-                      <ul class="trans_list">
-                        <li class="blue_txt"><p>трамвай №34<span><img src="images/ico1.png"></span></p></li>
-                        <li><p>автобус №53<span><img src="images/ico2.png"></span></p></li>
-                        <li><p>автобус №77<span><img src="images/ico2.png"></span></p></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-8 col-lg-8">
-                      <h2>Расположение</h2>
-                      <p>Добраться до «Солнечного» можно на автомобиле за 20-30 минут из центра города, либо на автобусах № 077, 53. В скором времени появится трамвайная линия</p>
-                    </div>    
-                  </div>                        
-                </div>
-             </div>
+          <div class="img_list">
+            <img src="images/commerse/c1.jpg">
+            <img src="images/commerse/c2.jpg">   
+            <img src="images/commerse/c3.jpg">  
+            <img src="images/commerse/c4.jpg">  
+            <img src="images/commerse/c5.jpg">  
+            <img src="images/commerse/c6.jpg">  
+            <img src="images/commerse/c7.jpg">  
+            <img src="images/commerse/c8.jpg">  
+            <img src="images/commerse/c9.jpg">   
+          </div>
+
         </main>
       </div>
     </div>

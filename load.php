@@ -31,10 +31,11 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
-<!--УДАЛИТЬ-->
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-<!--//УДАЛИТЬ-->
 
+
+<!--Удалить-->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!--//удалить-->
 
   </head>
   <body>
@@ -50,11 +51,11 @@
           <ul class="flex-column sidebar_menu">
             <li><a href="#">Главная</a></li>
             <li><a href="#">Особенности проекта</a></li>
-            <li><a class="active" href="#">Расположение</a></li>
+            <li><a href="#">Расположение</a></li>
             <li><a href="#">Жилые кварталы</a></li>
             <li><a href="#">Коммерческие площади</a></li>
             <li><a href="#">Ход строительства</a></li>
-            <li><a href="#">«Солнечный» сегодня</a></li>
+            <li><a href="#" class="active">«Солнечный» сегодня</a></li>
           </ul>
         <!--SIDEBAR_MENU-->
           <div class="s_adress">
@@ -91,27 +92,12 @@
               </button>
              
               <a class="top_logo" href="#"><img src="images/top_logo.svg" /></a>
-                <ul class="top_title"><li><h1>Расположение</h1></li></ul>
+                <ul class="top_title"><li><h1>«Солнечный» сегодня</h1></li></ul>
 
             </nav>
           <!--//TOP NAVMENU-->
-             <div class="big_img_block" style="background-image: url('images/contacts.jpg')">
-                <div class="bottom_info">
-                  <div class="row align-items-center">
-                    <div class="col-md-4 col-lg-4">
-                      <ul class="trans_list">
-                        <li class="blue_txt"><p>трамвай №34<span><img src="images/ico1.png"></span></p></li>
-                        <li><p>автобус №53<span><img src="images/ico2.png"></span></p></li>
-                        <li><p>автобус №77<span><img src="images/ico2.png"></span></p></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-8 col-lg-8">
-                      <h2>Расположение</h2>
-                      <p>Добраться до «Солнечного» можно на автомобиле за 20-30 минут из центра города, либо на автобусах № 077, 53. В скором времени появится трамвайная линия</p>
-                    </div>    
-                  </div>                        
-                </div>
-             </div>
+
+
         </main>
       </div>
     </div>
@@ -166,7 +152,32 @@
      </form>
   </div>
 </div>
+
+        <div class="load">
+        <div class="progress_load">
+            <div class="percent">
+                <img src="images/logo_sun_preloader.png">
+                <div class="preloader">
+                    <div class="preloader__loaded" id="loader_progress_graph"></div>
+                </div>
+                <div id="loader_progress_percent">0%</div>
+            </div>
+        </div>
+    </div>  
+    <script type="text/javascript">
+     i=0;
+      setInterval(function() {
+    if (i<=100)
+      {
+        $('#loader_progress_graph').css('border-width', i*2.3+'px '+i*2.3+'px 0 0');
+        $('#loader_progress_percent').html(i+"%");
+        i++; 
+      } 
+      }, 20);
+    </script>
   </body>
 </html>
+
+
 
 
