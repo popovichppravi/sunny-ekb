@@ -509,6 +509,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 14px;
+	padding: 0 6px;
 }
 
 
@@ -615,6 +616,11 @@ a.ph_title
 background-repeat: no-repeat;
 }
 
+.living_img
+{
+	width: 100%;
+}
+
 .img_list img
 {
 	width: 100%;
@@ -664,6 +670,115 @@ position: absolute;
 	background: rgba(220, 220, 220, 1);
 	padding: 5px;
 }
+
+
+.living_icons_inner ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.living_icons_inner ul li
+{
+position: absolute;
+}
+
+.living_icons_inner ul li:nth-child(1) {top: 9.5vw; left: 23vw;}
+.living_icons_inner ul li:nth-child(2) {top: 12.5vw; left: 29vw;}
+.living_icons_inner ul li:nth-child(3) {top: 14.5vw; left: 34.5vw;}
+.living_icons_inner ul li:nth-child(4) {top: 13.5vw; left: 20vw;}
+.living_icons_inner ul li:nth-child(5) {top: 16vw; left: 26vw;}
+.living_icons_inner ul li:nth-child(6) {top: 18.5vw; left: 32vw;}
+.living_icons_inner ul li:nth-child(7) {top: 20.5vw; left: 38vw;}
+.living_icons_inner ul li:nth-child(8) {top: 21.5vw; left: 28vw;}
+.living_icons_inner ul li:nth-child(9) {top: 25vw; left: 32vw;}
+
+
+.living_icons_inner ul li img
+{
+	max-height: 3vw;
+	max-width: 3vw;
+}
+
+.living_icons_inner ul li a
+{
+	display: inline-block;
+	height: 4vw;
+	width: 4vw;
+	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 200px;
+-moz-border-radius: 200px;
+border-radius: 200px;
+text-align: center;
+vertical-align: middle;
+line-height: 4vw;
+}
+
+.sidebar_living
+{
+	margin-top: 30px;
+}
+
+.sidebar_living ul
+{
+	padding: 0;
+	list-style-type: none;
+}
+
+.sidebar_living ul li
+{
+	margin-bottom: 20px;
+}
+
+.sidebar_living ul li p
+{
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
+
+.l_title
+{
+	font-family: "OpenSansBold";
+	margin-bottom: 5px;
+}
+
+.l_title img
+{
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.l_title span
+{
+	line-height: 1.2;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+
+}
+
+.l_img
+{
+	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+	display: table-cell;
+	margin-right: 10px;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	line-height: 50px;
+	border: 3px solid #fff;
+}
+
+.l1 .l_img {border-color: #312A7E;}
+.l2 .l_img {border-color: #7AAE30;}
+.l3 .l_img {border-color: #DD7813;}
+.l4 .l_img {border-color: #D31B17;}
+.l5 .l_img {border-color: #0097D1;}
+
 
 /*
 * LOAD

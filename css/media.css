@@ -157,6 +157,22 @@ display: none;
 		padding: 5px 0;
 	}
 
+	.living_icons_inner
+	{
+		display: none;
+	}
+
+	.sidebar_living 
+	{
+		text-align: center;
+	}
+
+	.sidebar_living ul
+	{
+		display: inline-block;
+		text-align: left;
+	}
+
 
 
 }
