@@ -64,7 +64,7 @@
                 <p>тел.: +7 (343) 226-08-42</p>
                 <p>e-mail: sales@forum-gd.ru</p>
           </div>
-          <img class="s_logo" src="images/sidebar_logo.svg">
+          <img class="s_logo" src="images/sidebar_logo.png">
           <div class="s_social">
             <ul>
                 <li><a href="#"><i class="fab fa-vk"></i></a></li>
@@ -102,7 +102,7 @@
                       <ul class="trans_list">
                         <li class="blue_txt"><p>трамвай №34<span><img src="images/ico1.png"></span></p></li>
                         <li><p>автобус №53<span><img src="images/ico2.png"></span></p></li>
-                        <li><p>автобус №77<span><img src="images/ico2.png"></span></p></li>
+                        <li><p>автобус №077<span><img src="images/ico2.png"></span></p></li>
                       </ul>
                     </div>
                     <div class="col-md-8 col-lg-8">

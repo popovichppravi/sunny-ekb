@@ -48,6 +48,7 @@
         <nav class="col-sm-3 col-md-3 col-lg-2 collapse navbar-collapse sidebar" id="navsidebar">
         <!--SIDEBAR_MENU-->
           <p class="menu_name">МЕНЮ</p>
+          <button class="nav_close_btn navbar-toggler navbar-toggler-right hidden-sm-up" aria-controls="navsidebar" type="button" data-toggle="collapse" data-target="#navsidebar" aria-controls="navsidebar" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-times" aria-hidden="true"></i></button>
           <ul class="flex-column sidebar_menu">
             <li><a class="active" href="#">Главная</a></li>
             <li><a href="#">Особенности проекта</a></li>
@@ -65,7 +66,7 @@
                 <p>тел.: +7 (343) 226-08-42</p>
                 <p>e-mail: sales@forum-gd.ru</p>
           </div>
-          <img class="s_logo" src="images/sidebar_logo.svg">
+          <img class="s_logo" src="images/sidebar_logo.png">
           <div class="s_social">
             <ul>
                 <li><a href="#"><i class="fab fa-vk"></i></a></li>
@@ -90,12 +91,9 @@
                 <button class="navbar-toggler navbar-toggler-left hidden-sm-up" type="button" data-toggle="collapse" data-target="#navsidebar" aria-controls="navsidebar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
               <a class="top_logo" href="#"><img src="images/top_logo.svg" /></a>
 
-              <div class="collapse navbar-collapse" id="navbarTop">
+              <div id="navbarTop">
                 <div id="main-slider-control">
                 <ul>
                     <li class="flex-active"><a href="#">Район</a></li>

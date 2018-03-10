@@ -33,6 +33,10 @@
     <script src="js/jquery.min.js"></script>
 
 
+<!--УДАЛИТЬ-->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!--//УДАЛИТЬ-->
+
   </head>
   <body>
     <!--CALL BTN-->
@@ -61,7 +65,7 @@
                 <p>тел.: +7 (343) 226-08-42</p>
                 <p>e-mail: sales@forum-gd.ru</p>
           </div>
-          <img class="s_logo" src="images/sidebar_logo.svg">
+          <img class="s_logo" src="images/sidebar_logo.png">
           <div class="s_social">
             <ul>
                 <li><a href="#"><i class="fab fa-vk"></i></a></li>

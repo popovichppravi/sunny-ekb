@@ -13,6 +13,7 @@
 {
 	right: 20px;
 }
+
 	
 }
 
@@ -41,7 +42,7 @@ display: none;
 
 	.top-navbar ul
 	{
-		border: none !important;
+		border: none;
 	}
 
 	.top-navbar ul li
@@ -74,10 +75,6 @@ display: none;
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 880px) {
 
-.s_logo
-{
-	width: 50%;
-}
 
 .trans_list li
 {
@@ -143,19 +140,24 @@ display: none;
 		overflow-y: auto !important;
 	}
 
-	.top-navbar ul li
+
+	.top-navbar ul
 	{
-		display: block;
-		margin: 5px 10px 5px;
+		margin: 15px 0 0 0; 
+		padding: 0;
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+		display: inline-block;
+		padding: 0 15px;
 	}
 
-		.top-navbar ul li a
+	.top-navbar ul li
 	{
-		text-align: center;
-		display: block;
-		border: 1px solid #fff;
-		padding: 5px 0;
+		margin-top: 0;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
+
 
 	.living_icons_inner
 	{
@@ -173,20 +175,75 @@ display: none;
 		text-align: left;
 	}
 
+	.modal-open-btn
+	{
+		position: absolute;
+		top: 0;
+	}
+
+	.modal-open-btn img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.top-navbar ul.top_title
+	{
+		border-left: none;
+	}
+
 
 
 }
 
 @media only screen and (max-width : 544px) {
 
+	.top-navbar
+	{
+		position: fixed;
+	}
+
 	
+.sidebar .menu_name
+{
+	display: none;
+}
+.sidebar_menu,
+.s_adress
+{
+	font-size: 16px;
+}
+
+.s_links,
+.site_create
+{
+	font-size: 12px;
+}
 
 .sidebar {
 	display: none;
     position: absolute;
-    top: 100px;
+    top: 55px;
     background-color: #4C4C4C;
-    width: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 20px 30px;
+}
+.img_list
+{
+	background: #fff;
+	padding-right: 0px;
+}
+
+.big_img_block
+{
+	background-position: 50%;
+}
+
+.s_logo,
+.s_social
+{
+display: inline-block;
 }
 
 }
@@ -228,5 +285,10 @@ display: none;
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+	nav.sidebar
+{
+	width: 200px !important;
+}
 
 }
