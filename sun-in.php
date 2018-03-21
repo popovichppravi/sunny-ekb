@@ -98,67 +98,29 @@
           <!--//TOP NAVMENU-->
           
           <div class="photo_groups">
-             <div class="photo_items after_sb">
-                <div class="row">
-                   <div class="col-md-4 ph_item">
-                     <a href="images/pj1.jpg" data-fancybox="gallery">
-                      <img src="images/pj1.jpg">
-                      <p><span>Свой парк и современное благоустройство</span></p>
-                     </a>
-                   </div>
-                   <div class="col-md-4 ph_item">
-                      <a href="images/pj2.jpg" data-fancybox="gallery">
-                        <img src="images/pj2.jpg">
-                        <p><span>Активно развивающаяся социальная инфраструктура</span></p>
-                      </a>
-                    </div>
-                   <div class="col-md-4 ph_item">
-                    <a href="images/pj3.jpg" data-fancybox="gallery">
-                      <img src="images/pj3.jpg">
-                      <p><span>Уютная атмосфера и дружелюбные соседи</span></p>
-                    </a>
-                   </div> 
-                </div>
-                <div class="row">
-                   <div class="col-md-4 ph_item">
-                     <a href="images/pj4.jpg" data-fancybox="gallery">
-                      <img src="images/pj4.jpg">
-                      <p><span>Комфортная этажность и плотность застройки</span></p>
-                     </a>
-                   </div>
-                   <div class="col-md-4 ph_item">
-                      <a href="images/pj5.jpg" data-fancybox="gallery">
-                        <img src="images/pj5.jpg">
-                        <p><span>Разнообразие архитектурных и планировочных решений</span></p>
-                      </a>
-                    </div>
-                   <div class="col-md-4 ph_item">
-                    <a href="images/pj6.jpg" data-fancybox="gallery">
-                      <img src="images/pj6.jpg">
-                      <p><span>Удобные парковки</span></p>
-                    </a>
-                   </div> 
-                </div>
-                <div class="row">
-                   <div class="col-md-4 ph_item">
-                     <a href="images/pj7.jpg" data-fancybox="gallery">
-                      <img src="images/pj7.jpg">
-                      <p><span>Комплексная система безопасности</span></p>
-                     </a>
-                   </div>
-                   <div class="col-md-4 ph_item">
-                      <a href="images/pj8.jpg" data-fancybox="gallery">
-                        <img src="images/pj8.jpg">
-                        <p><span>Единая Управляющая компания</span></p>
-                      </a>
-                    </div>
-                   <div class="col-md-4 ph_item">
-                    <a href="images/pj9.jpg" data-fancybox="gallery">
-                      <img src="images/pj9.jpg">
-                      <p><span>Современная система инженерного обеспечения</span></p>
-                    </a>
-                   </div> 
-                </div>                             
+             <div class="photo_gallery">
+              <div class="text-right"> <a href="#">вернуться к альбомам</a></div>
+              <br />
+                <ul>
+                  <li><a href="images/pj1.jpg" data-fancybox="gallery"><img src="images/pj1.jpg"></a></li>
+                  <li><a href="images/pj2.jpg" data-fancybox="gallery"><img src="images/pj2.jpg"></a></li>
+                  <li><a href="images/pj3.jpg" data-fancybox="gallery"><img src="images/pj3.jpg"></a></li>
+                  <li><a href="images/pj4.jpg" data-fancybox="gallery"><img src="images/pj4.jpg"></a></li>
+                  <li><a href="images/pj5.jpg" data-fancybox="gallery"><img src="images/pj5.jpg"></a></li>
+                  <li><a href="images/pj6.jpg" data-fancybox="gallery"><img src="images/pj6.jpg"></a></li>
+                  <li><a href="images/pj7.jpg" data-fancybox="gallery"><img src="images/pj7.jpg"></a></li>
+                  <li><a href="images/pj8.jpg" data-fancybox="gallery"><img src="images/pj8.jpg"></a></li>
+                  <li><a href="images/pj9.jpg" data-fancybox="gallery"><img src="images/pj9.jpg"></a></li>
+                  <li><a href="images/pj1.jpg" data-fancybox="gallery"><img src="images/pj1.jpg"></a></li>
+                  <li><a href="images/pj2.jpg" data-fancybox="gallery"><img src="images/pj2.jpg"></a></li>
+                  <li><a href="images/pj3.jpg" data-fancybox="gallery"><img src="images/pj3.jpg"></a></li>
+                  <li><a href="images/pj4.jpg" data-fancybox="gallery"><img src="images/pj4.jpg"></a></li>
+                  <li><a href="images/pj5.jpg" data-fancybox="gallery"><img src="images/pj5.jpg"></a></li>
+                  <li><a href="images/pj6.jpg" data-fancybox="gallery"><img src="images/pj6.jpg"></a></li>
+                  <li><a href="images/pj7.jpg" data-fancybox="gallery"><img src="images/pj7.jpg"></a></li>
+                </ul>
+                <br />
+                <div class="text-right"> <a href="#">вернуться к альбомам</a></div>
             </div>        
           
           </div>

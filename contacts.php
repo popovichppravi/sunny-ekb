@@ -95,7 +95,7 @@
 
             </nav>
           <!--//TOP NAVMENU-->
-             <div class="big_img_block" style="background-image: url('images/contacts.jpg')">
+             <div class="big_img_block" style="background-image: url('images/contacts.jpg'); background-position: right;">
                 <div class="bottom_info">
                   <div class="row align-items-center">
                     <div class="col-md-4 col-lg-4">

@@ -84,7 +84,7 @@
 
         <main class="col-sm-9 offset-sm-3 col-md-9 col-lg-10 offset-md-3 offset-lg-2 right_content">
           <div class="row" style="margin: 0;">
-            <div class="col-md-9 flex-md-last" style="padding: 0;">
+            <div class="col-md-10 flex-md-last" style="padding: 0;">
               <!--TOP NAVMENU-->
                 <nav class="top-navbar navbar navbar-toggleable-md navbar-inverse">
                   <button class="navbar-toggler navbar-toggler-left hidden-sm-up" type="button" data-toggle="collapse" data-target="#navsidebar" aria-controls="navsidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,12 +109,12 @@
                 </ul>                
               </div>                
             </div>
-            <div class="col-md-3 col-md-pull-9" style="padding: 0;" >
+            <div class="col-md-2 col-md-pull-9" style="padding: 0 10px 0 0 ;" >
               <div class="sidebar_living">
                 <ul>
                   <li>
                     <div class="l_title l1"><div class="l_img"><img src="images/living/l1.png"></div><span>ЗАО «Форум-групп»</span></div>
-                    <p>Отдел продаж: ул. Хохрякова, 48,<br />тел.: +7 (343) 226-08-42<br />e-mail: sales@forum-gd.ru</p>
+                    <p>Отдел продаж: ул. Хохрякова, 48<br />тел.: +7 (343) 226-08-42<br />e-mail: sales@forum-gd.ru</p>
                     <p><a href="#">Посмотреть объекты в продаже</a></p>
                   </li>
                   <li>

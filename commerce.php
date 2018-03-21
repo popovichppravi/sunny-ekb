@@ -95,15 +95,56 @@
             </nav>
           <!--//TOP NAVMENU-->
           <div class="img_list">
-            <img src="images/commerse/c1.jpg">
-            <img src="images/commerse/c2.jpg">   
-            <img src="images/commerse/c3.jpg">  
-            <img src="images/commerse/c4.jpg">  
-            <img src="images/commerse/c5.jpg">  
-            <img src="images/commerse/c6.jpg">  
-            <img src="images/commerse/c7.jpg">  
-            <img src="images/commerse/c8.jpg">  
-            <img src="images/commerse/c9.jpg">   
+            <ul>
+              <li>
+                <img src="images/commerse/c1.jpg">
+                <div class="white_block left_bottom_block">
+                  <p>По вопросам аренды и приобретения коммерческих<br />помещений обращаться:</p>
+                  <p>Мария Пономарева<br />ул. Радищева, 25<br />тел.: +7 (343) 215-92-93 (доб. 4196)<br />e-mail: ponomareva@forum-gd.ru</p>
+                </div>
+              </li>
+              <li>
+                <div class="yellow_block right_top_block">помещения на продажу: 135,5 м<sup><i>2</i></sup></div>
+                <img src="images/commerse/c2.jpg">
+              </li>
+              <li>
+                <div class="grey_block right_top_block">все помещения проданы</div>
+                <img src="images/commerse/c3.jpg">
+              </li>
+              <li>
+                <div class="right_top_block">
+                  <div class="yellow_block">помещения на продажу: 537,6 м<sup><i>2</i></sup></div>
+                  <div class="blue_block">помещения в аренду: 238,9 м<sup><i>2</i></sup></div>
+                </div>
+                <img src="images/commerse/c4.jpg">
+              </li>
+              <li>
+                <div class="blue_block right_top_block">помещения в аренду: 238,9 м<sup><i>2</i></sup></div>
+                <img src="images/commerse/c5.jpg">
+              </li>
+              <li>
+                <div class="blue_block right_top_block">помещения в аренду: 183,82 м<sup><i>2</i></sup></div>
+                <img src="images/commerse/c6.jpg">
+              </li>
+              <li>
+                <div class="right_top_block">
+                  <div class="yellow_block">помещения на продажу: 471,3 м<sup><i>2</i></sup></div>
+                  <div class="blue_block">помещения в аренду: 782,3 м<sup><i>2</i></sup></div>
+                </div>
+                <img src="images/commerse/c7.jpg">
+              </li>
+              <li>
+                <div class="yellow_block right_top_block">помещения на продажу: 479,0 м<sup><i>2</i></sup></div>
+                <img src="images/commerse/c8.jpg">
+              </li>
+              <li>
+                <div class="right_top_block">
+                  <div class="yellow_block">помещения на продажу: 726,3 м<sup><i>2</i></sup></div>
+                  <div class="blue_block">помещения в аренду: 196,0 м<sup><i>2</i></sup></div>
+                </div>
+                <img src="images/commerse/c9.jpg">
+              </li>
+            </ul>
           </div>
 
         </main>
